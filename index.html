@@ -1,0 +1,414 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>GAIA*PRAGMOSIS — Whitepaper & SAFE Terms</title>
+  <meta name="description" content="GAIA*PRAGMOSIS: a global hemp & cannabis platform integrating a multivendor marketplace, sustainability (WETAS), and future tokenized rewards. One-page whitepaper with investment terms." />
+  <meta property="og:title" content="GAIA*PRAGMOSIS — Whitepaper & SAFE Terms" />
+  <meta property="og:description" content="A single-page investor-ready whitepaper for GAIA*PRAGMOSIS with market, product, roadmap, and SAFE/CARE terms." />
+  <meta property="og:type" content="website" />
+  <meta property="og:image" content="https://www.globalhempservice.com/wp-content/uploads/2024/08/og-gaia-pragmosis.jpg" />
+  <meta name="theme-color" content="#38E2B5" />
+  <script src="https://cdn.tailwindcss.com"></script>
+  <style>
+    /* Print styles for PDF export */
+    @media print {
+      @page { size: A4; margin: 14mm; }
+      header, nav, .no-print, .sticky { display: none !important; }
+      section { page-break-inside: avoid; }
+      .card { box-shadow: none !important; border: 1px solid #e5e7eb; }
+      a[href^="http"]::after { content: " (" attr(href) ")"; font-size: 0.75rem; color: #6b7280; }
+    }
+    html { scroll-behavior: smooth; }
+    .glass { backdrop-filter: blur(10px); background: rgba(255,255,255,0.6); }
+  </style>
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Organization",
+    "name": "GAIA*PRAGMOSIS",
+    "url": "https://www.globalhempservice.com",
+    "sameAs": ["https://www.linkedin.com/company/78807632"],
+    "description": "Global hemp & cannabis platform: marketplace, sustainability (WETAS), tokenized rewards.",
+    "logo": "https://www.globalhempservice.com/wp-content/uploads/2024/08/logo.png"
+  }
+  </script>
+</head>
+<body class="bg-gradient-to-b from-[#F5F7FF] via-[#F7FAF9] to-white text-[#1f2937]">
+  <!-- Header / Nav -->
+  <header class="sticky top-0 z-50 bg-white/70 glass border-b border-gray-100">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-3 flex items-center justify-between">
+      <a href="#top" class="flex items-center gap-3 font-semibold text-gray-900 tracking-tight">
+        <span class="inline-block w-3 h-3 rounded-full" style="background:#38E2B5"></span>
+        <span>GAIA*PRAGMOSIS</span>
+      </a>
+      <nav class="hidden md:flex gap-6 text-sm">
+        <a href="#overview" class="hover:text-[#38E2B5]">Overview</a>
+        <a href="#architecture" class="hover:text-[#38E2B5]">Architecture</a>
+        <a href="#market" class="hover:text-[#38E2B5]">Market</a>
+        <a href="#product" class="hover:text-[#38E2B5]">Product</a>
+        <a href="#roadmap" class="hover:text-[#38E2B5]">Roadmap</a>
+        <a href="#business" class="hover:text-[#38E2B5]">Business Model</a>
+        <a href="#safe" class="hover:text-[#38E2B5]">SAFE Terms</a>
+        <a href="#team" class="hover:text-[#38E2B5]">Team</a>
+        <a href="#contact" class="hover:text-[#38E2B5]">Contact</a>
+      </nav>
+      <div class="flex items-center gap-2">
+        <button onclick="window.print()" class="no-print inline-flex items-center px-3 py-2 rounded-xl text-sm font-medium bg-[#38E2B5] text-white hover:opacity-90 shadow">
+          Export PDF
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <!-- Hero -->
+  <section id="top" class="relative overflow-hidden">
+    <div class="absolute inset-0 -z-10 opacity-30" aria-hidden="true">
+      <!-- Decorative geometric background -->
+      <svg class="w-full h-full" viewBox="0 0 1200 400" preserveAspectRatio="none">
+        <defs>
+          <linearGradient id="g1" x1="0" x2="1" y1="0" y2="1">
+            <stop offset="0%" stop-color="#38E2B5"/>
+            <stop offset="100%" stop-color="#a78bfa"/>
+          </linearGradient>
+        </defs>
+        <g fill="none" stroke="url(#g1)" stroke-width="1">
+          <path d="M0,300 C150,250 250,350 400,300 C550,250 650,350 800,300 C950,250 1050,350 1200,300"/>
+          <path d="M0,220 C150,170 250,270 400,220 C550,170 650,270 800,220 C950,170 1050,270 1200,220"/>
+          <circle cx="300" cy="120" r="60"/>
+          <circle cx="900" cy="80" r="40"/>
+          <polygon points="600,40 620,80 580,80"/>
+        </g>
+      </svg>
+    </div>
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-16 md:py-24">
+      <div class="grid md:grid-cols-2 gap-10 items-center">
+        <div>
+          <h1 class="text-3xl md:text-5xl font-extrabold leading-tight text-gray-900">A pragmatic path to a regenerative hemp economy</h1>
+          <p class="mt-4 text-lg text-gray-600">GAIA*PRAGMOSIS unifies marketplace commerce, carbon integrity (WETAS), and tokenized rewards into a scalable platform for brands, farmers, and conscious consumers.</p>
+          <div class="mt-6 flex flex-wrap gap-3">
+            <a href="#overview" class="inline-flex items-center px-4 py-2 rounded-xl bg-gray-900 text-white text-sm font-medium hover:bg-gray-800">Read Whitepaper</a>
+            <a href="#safe" class="inline-flex items-center px-4 py-2 rounded-xl bg-[#a78bfa] text-white text-sm font-medium hover:opacity-90">Investment Terms</a>
+            <a href="#contact" class="inline-flex items-center px-4 py-2 rounded-xl bg-yellow-400 text-gray-900 text-sm font-medium hover:opacity-90">Get in Touch</a>
+          </div>
+          <p class="mt-3 text-xs text-gray-500">Last updated: 13 Aug 2025 — Paris time.</p>
+        </div>
+        <div class="md:justify-self-end">
+          <div class="card bg-white/80 backdrop-blur rounded-2xl p-6 shadow-lg border border-gray-100 max-w-md">
+            <h3 class="font-semibold">Investment Highlights</h3>
+            <ul class="mt-3 space-y-2 text-sm text-gray-700 list-disc list-inside">
+              <li>Multivendor marketplace with brand-owned storefronts & geo-targeted distribution.</li>
+              <li>WETAS: verifiable carbon removal & waste elimination program integrated into commerce.</li>
+              <li>Token-ready rewards engine for loyalty, redemption, and future utilities.</li>
+              <li>Phased go-to-market across EU/Asia with cultural pop-ups and partnerships.</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Overview / Whitepaper Summary -->
+  <section id="overview" class="py-16">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="grid lg:grid-cols-3 gap-8">
+        <div class="lg:col-span-2">
+          <h2 class="text-2xl md:text-3xl font-bold">Whitepaper Summary</h2>
+          <div class="mt-4 space-y-6 text-gray-700 leading-relaxed">
+            <p><span class="font-semibold">Problem.</span> The hemp & cannabis economy is fragmented: brands lack high-quality distribution and trust frameworks; consumers lack clarity on product provenance; and carbon claims are inconsistent across the supply chain.</p>
+            <p><span class="font-semibold">Solution.</span> A vertically integrated platform: (1) a <span class="font-semibold">multivendor marketplace</span> with brand-customizable storefronts; (2) <span class="font-semibold">WETAS</span> for auditable carbon removal and waste reduction linked to commerce events; and (3) a <span class="font-semibold">token-ready rewards layer</span> connecting purchases to perks and impact.</p>
+            <p><span class="font-semibold">Why now.</span> Regulatory liberalization, maturing consumer demand, and enterprise decarbonization targets create converging tailwinds for trusted platforms with measurable impact.</p>
+            <p><span class="font-semibold">Moat.</span> Geo-filtered distribution, partner mini-stores (Tmall-like), content-driven onboarding, and native impact accounting through WETAS.</p>
+          </div>
+        </div>
+        <aside class="card bg-white rounded-2xl p-6 shadow border border-gray-100">
+          <h3 class="font-semibold">Fast Facts</h3>
+          <dl class="mt-4 grid grid-cols-1 gap-3 text-sm">
+            <div class="flex justify-between"><dt>Company</dt><dd>Global Hemp Service</dd></div>
+            <div class="flex justify-between"><dt>Project</dt><dd>GAIA*PRAGMOSIS</dd></div>
+            <div class="flex justify-between"><dt>Model</dt><dd>Marketplace + SaaS + Impact</dd></div>
+            <div class="flex justify-between"><dt>HQ</dt><dd>Paris, FR</dd></div>
+          </dl>
+        </aside>
+      </div>
+    </div>
+  </section>
+
+  <!-- Architecture -->
+  <section id="architecture" class="py-16 bg-white">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <h2 class="text-2xl md:text-3xl font-bold">Platform Architecture — The Trinity Engine</h2>
+      <div class="mt-8 grid md:grid-cols-3 gap-6">
+        <div class="card rounded-2xl p-6 border border-gray-100 shadow bg-white">
+          <h3 class="font-semibold">PRAGMA Studio</h3>
+          <p class="mt-2 text-sm text-gray-700">Strategy & brand lab for onboarding vendors, storytelling, and GTM orchestration.</p>
+        </div>
+        <div class="card rounded-2xl p-6 border border-gray-100 shadow bg-white">
+          <h3 class="font-semibold">NOVA Labs</h3>
+          <p class="mt-2 text-sm text-gray-700">Product & tech: storefront engine, geo-routing, payments, and token-ready rewards.</p>
+        </div>
+        <div class="card rounded-2xl p-6 border border-gray-100 shadow bg-white">
+          <h3 class="font-semibold">VERDANT Ventures</h3>
+          <p class="mt-2 text-sm text-gray-700">Finance & infrastructure: WETAS registry, carbon accounting, and partnerships.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Market & Traction -->
+  <section id="market" class="py-16">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <h2 class="text-2xl md:text-3xl font-bold">Market & Traction</h2>
+      <div class="mt-4 grid md:grid-cols-2 gap-6 items-start">
+        <div class="card rounded-2xl p-6 border border-gray-100 shadow bg-white">
+          <h3 class="font-semibold">Tailwinds</h3>
+          <ul class="mt-2 text-sm text-gray-700 list-disc list-inside space-y-2">
+            <li>Global expansion of hemp legality and consumer acceptance.</li>
+            <li>Enterprise demand for credible, verifiable carbon removal.</li>
+            <li>Direct-to-consumer shift favoring brand-owned storefronts.</li>
+          </ul>
+        </div>
+        <div class="card rounded-2xl p-6 border border-gray-100 shadow bg-white">
+          <h3 class="font-semibold">Early Signals</h3>
+          <ul class="mt-2 text-sm text-gray-700 list-disc list-inside space-y-2">
+            <li>Demo marketplace live on Netlify; modular pages built.</li>
+            <li>Vendor interest pipeline across EU/Asia (brands, artisans).</li>
+            <li>WETAS concept validated with biochar/graphite initiatives.</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Product -->
+  <section id="product" class="py-16 bg-white">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <h2 class="text-2xl md:text-3xl font-bold">Product & Differentiators</h2>
+      <div class="mt-6 grid lg:grid-cols-3 gap-6">
+        <div class="card rounded-2xl p-6 border border-gray-100 shadow bg-white">
+          <h3 class="font-semibold">Brand Mini-Stores</h3>
+          <p class="mt-2 text-sm text-gray-700">Tmall-like vendor storefronts: custom colors, layout blocks, and storytelling modules.</p>
+        </div>
+        <div class="card rounded-2xl p-6 border border-gray-100 shadow bg-white">
+          <h3 class="font-semibold">Geo-Filtered Distribution</h3>
+          <p class="mt-2 text-sm text-gray-700">Compliant routing based on user location, inventory, and vendor preferences.</p>
+        </div>
+        <div class="card rounded-2xl p-6 border border-gray-100 shadow bg-white">
+          <h3 class="font-semibold">WETAS Integration</h3>
+          <p class="mt-2 text-sm text-gray-700">Auto-link transactions to carbon removal and waste reduction claims with audit trails.</p>
+        </div>
+        <div class="card rounded-2xl p-6 border border-gray-100 shadow bg-white">
+          <h3 class="font-semibold">Token-Ready Rewards</h3>
+          <p class="mt-2 text-sm text-gray-700">Points → perks, category-based redemption, and future token utilities when compliant.</p>
+        </div>
+        <div class="card rounded-2xl p-6 border border-gray-100 shadow bg-white">
+          <h3 class="font-semibold">Omnichannel Extensions</h3>
+          <p class="mt-2 text-sm text-gray-700">WeChat mini-programs, LINE stores, and pop-up activations to bypass app store tolls.</p>
+        </div>
+        <div class="card rounded-2xl p-6 border border-gray-100 shadow bg-white">
+          <h3 class="font-semibold">Knowledge & Compliance</h3>
+          <p class="mt-2 text-sm text-gray-700">Country-by-country legality database (living) to support responsible access.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Roadmap -->
+  <section id="roadmap" class="py-16">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <h2 class="text-2xl md:text-3xl font-bold">Roadmap (Next 18 Months)</h2>
+      <ol class="mt-6 grid md:grid-cols-3 gap-6 text-sm">
+        <li class="card rounded-2xl p-6 border border-gray-100 shadow bg-white">
+          <h3 class="font-semibold">Phase 1 — Foundation</h3>
+          <p class="mt-2 text-gray-700">Finalize MVP marketplace, vendor onboarding kit, and WETAS v0 data model.</p>
+        </li>
+        <li class="card rounded-2xl p-6 border border-gray-100 shadow bg-white">
+          <h3 class="font-semibold">Phase 2 — GTM</h3>
+          <p class="mt-2 text-gray-700">Launch curated vendors in EU/Asia; cultural pop-ups in Paris/Bangkok; rewards beta.</p>
+        </li>
+        <li class="card rounded-2xl p-6 border border-gray-100 shadow bg-white">
+          <h3 class="font-semibold">Phase 3 — Scale</h3>
+          <p class="mt-2 text-gray-700">Expand categories (textiles, construction, wellness); deepen carbon integrations.</p>
+        </li>
+      </ol>
+    </div>
+  </section>
+
+  <!-- Business Model & Snapshot -->
+  <section id="business" class="py-16 bg-white">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <h2 class="text-2xl md:text-3xl font-bold">Business Model</h2>
+      <div class="mt-6 grid lg:grid-cols-2 gap-6">
+        <div class="card rounded-2xl p-6 border border-gray-100 shadow bg-white">
+          <h3 class="font-semibold">Revenue Streams</h3>
+          <ul class="mt-2 text-sm text-gray-700 list-disc list-inside space-y-2">
+            <li>Marketplace take rate on GMV</li>
+            <li>Vendor SaaS subscriptions & add-ons</li>
+            <li>WETAS carbon services & data access</li>
+            <li>Partnerships & cultural activations</li>
+          </ul>
+        </div>
+        <div class="card rounded-2xl p-6 border border-gray-100 shadow bg-white">
+          <h3 class="font-semibold">Unit Economics (Illustrative)</h3>
+          <table class="mt-3 w-full text-sm">
+            <tbody class="divide-y divide-gray-100">
+              <tr><td class="py-2 text-gray-600">Avg. order value</td><td class="py-2 font-medium text-right">€75–€120</td></tr>
+              <tr><td class="py-2 text-gray-600">Take rate</td><td class="py-2 font-medium text-right">10–18%</td></tr>
+              <tr><td class="py-2 text-gray-600">SaaS ARPU (monthly)</td><td class="py-2 font-medium text-right">€49–€199</td></tr>
+              <tr><td class="py-2 text-gray-600">WETAS service margin</td><td class="py-2 font-medium text-right">35–60%</td></tr>
+            </tbody>
+          </table>
+          <p class="mt-2 text-xs text-gray-500">For illustration only; detailed model available on request.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- SAFE / CARE Terms -->
+  <section id="safe" class="py-16">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <h2 class="text-2xl md:text-3xl font-bold">Investment Terms — SAFE/CARE</h2>
+      <p class="mt-3 text-gray-700">Below are the current draft terms for the early round. These can be finalized with counsel. Figures reflect your latest inputs.</p>
+      <div class="mt-6 overflow-x-auto">
+        <table class="min-w-full bg-white border border-gray-200 rounded-2xl overflow-hidden text-sm">
+          <tbody class="divide-y divide-gray-100">
+            <tr>
+              <td class="p-3 font-medium w-1/2">Round Size</td>
+              <td class="p-3">US$300,000</td>
+            </tr>
+            <tr>
+              <td class="p-3 font-medium">Ticket Size</td>
+              <td class="p-3">US$500–US$1,000+ (min entry)</td>
+            </tr>
+            <tr>
+              <td class="p-3 font-medium">Discount Rate</td>
+              <td class="p-3">85% (investor receives 85% discount at conversion)</td>
+            </tr>
+            <tr>
+              <td class="p-3 font-medium">Valuation Cap</td>
+              <td class="p-3">US$2,000,000</td>
+            </tr>
+            <tr>
+              <td class="p-3 font-medium">Maturity Date</td>
+              <td class="p-3">31 December 2027</td>
+            </tr>
+            <tr>
+              <td class="p-3 font-medium">Minimum Equity Raise (MER)</td>
+              <td class="p-3">US$4,000,000 (automatic conversion upon qualified round)</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+      <details class="mt-4 bg-white rounded-2xl p-4 border border-gray-100 shadow">
+        <summary class="font-semibold cursor-pointer">Key Clauses (plain-English)</summary>
+        <ul class="mt-3 list-disc list-inside text-sm text-gray-700 space-y-2">
+          <li><span class="font-medium">Conversion:</span> Converts into preferred shares at the lower of the Valuation Cap or Discount vs. the priced round.</li>
+          <li><span class="font-medium">MER:</span> If a priced equity round of ≥ US$4M closes, notes convert automatically.</li>
+          <li><span class="font-medium">Maturity:</span> If no qualified financing by 31 Dec 2027, investors may elect (i) conversion at Cap, or (ii) repayment if legally permissible and cash is available.</li>
+          <li><span class="font-medium">Most Favored Nation (optional):</span> Investors may benefit from better terms offered to later SAFE/CARE holders prior to conversion.</li>
+          <li><span class="font-medium">Pro Rata (optional):</span> Right to participate in the qualified round up to their as-converted stake.</li>
+        </ul>
+      </details>
+      <p class="mt-3 text-xs text-gray-500">This is not legal advice. Final terms subject to definitive agreements.</p>
+    </div>
+  </section>
+
+  <!-- Risks -->
+  <section id="risks" class="py-16 bg-white">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <h2 class="text-2xl md:text-3xl font-bold">Risks & Mitigations</h2>
+      <div class="mt-6 grid lg:grid-cols-3 gap-6 text-sm">
+        <div class="card rounded-2xl p-6 border border-gray-100 shadow bg-white">
+          <h3 class="font-semibold">Regulatory Variability</h3>
+          <p class="mt-2 text-gray-700">Geo-filtering & legality database to confine discovery and sales to compliant regions.</p>
+        </div>
+        <div class="card rounded-2xl p-6 border border-gray-100 shadow bg-white">
+          <h3 class="font-semibold">Vendor Onboarding</h3>
+          <p class="mt-2 text-gray-700">PRAGMA Studio toolkit, brand support, and curated launch cohorts to ensure quality.</p>
+        </div>
+        <div class="card rounded-2xl p-6 border border-gray-100 shadow bg-white">
+          <h3 class="font-semibold">Carbon Integrity</h3>
+          <p class="mt-2 text-gray-700">WETAS registry for auditable claims; start with conservative issuance and third-party review where needed.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Team -->
+  <section id="team" class="py-16">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <h2 class="text-2xl md:text-3xl font-bold">Team & Advisors</h2>
+      <p class="mt-3 text-gray-700">Core team spans sustainability, supply-chain, brand building, and product engineering. Advisors include domain experts in hemp materials, compliance, and carbon markets.</p>
+      <ul class="mt-4 grid md:grid-cols-2 lg:grid-cols-3 gap-4 text-sm text-gray-700">
+        <li class="card rounded-2xl p-4 border border-gray-100 shadow bg-white">Founder & CEO — Market strategy, partnerships, and fundraising.</li>
+        <li class="card rounded-2xl p-4 border border-gray-100 shadow bg-white">Head of Product — Marketplace, rewards, mobile & mini-programs.</li>
+        <li class="card rounded-2xl p-4 border border-gray-100 shadow bg-white">Sustainability Lead — WETAS methodology & data integrity.</li>
+      </ul>
+    </div>
+  </section>
+
+  <!-- Data Room / Resources -->
+  <section id="resources" class="py-16 bg-white">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <h2 class="text-2xl md:text-3xl font-bold">Resources</h2>
+      <ul class="mt-4 list-disc list-inside text-sm text-gray-700 space-y-2">
+        <li>Demo site: <a class="text-[#38E2B5] underline" href="https://globalhempservice.netlify.app/" target="_blank" rel="noopener">Netlify prototype</a></li>
+        <li>Company LinkedIn: <a class="text-[#38E2B5] underline" href="https://www.linkedin.com/company/78807632" target="_blank" rel="noopener">Global Hemp Service</a></li>
+        <li>One-pager PDF: use <span class="font-medium">Export PDF</span> at the top (optimized for A4)</li>
+      </ul>
+    </div>
+  </section>
+
+  <!-- Contact -->
+  <section id="contact" class="py-16">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="grid lg:grid-cols-2 gap-8 items-center">
+        <div>
+          <h2 class="text-2xl md:text-3xl font-bold">Contact</h2>
+          <p class="mt-3 text-gray-700">Interested in partnering or investing? Reach out for the detailed model, legal docs, and a walkthrough.</p>
+          <div class="mt-6 flex flex-wrap gap-3">
+            <a href="mailto:hello@globalhempservice.com" class="inline-flex items-center px-4 py-2 rounded-xl bg-gray-900 text-white text-sm font-medium hover:bg-gray-800">Email</a>
+            <a href="https://www.linkedin.com/company/78807632" target="_blank" rel="noopener" class="inline-flex items-center px-4 py-2 rounded-xl bg-[#38E2B5] text-white text-sm font-medium hover:opacity-90">LinkedIn</a>
+          </div>
+        </div>
+        <form class="card bg-white rounded-2xl p-6 shadow border border-gray-100">
+          <h3 class="font-semibold">Quick Inquiry</h3>
+          <div class="mt-4 grid grid-cols-1 gap-3 text-sm">
+            <input class="rounded-xl border-gray-300 focus:ring-[#38E2B5] focus:border-[#38E2B5]" placeholder="Name" type="text" />
+            <input class="rounded-xl border-gray-300 focus:ring-[#38E2B5] focus:border-[#38E2B5]" placeholder="Email" type="email" />
+            <textarea class="rounded-xl border-gray-300 focus:ring-[#38E2B5] focus:border-[#38E2B5]" placeholder="Message" rows="4"></textarea>
+            <button type="button" class="inline-flex justify-center px-4 py-2 rounded-xl bg-[#a78bfa] text-white font-medium hover:opacity-90">Send</button>
+            <p class="text-xs text-gray-500">Form is illustrative. Connect it to your backend or a service like Netlify Forms.</p>
+          </div>
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="border-t border-gray-100 bg-white">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8 text-sm text-gray-600 flex flex-col md:flex-row items-center justify-between gap-3">
+      <p>© <span id="year"></span> GAIA*PRAGMOSIS / Global Hemp Service. All rights reserved.</p>
+      <nav class="flex gap-4">
+        <a href="#overview" class="hover:text-gray-900">Whitepaper</a>
+        <a href="#safe" class="hover:text-gray-900">Investment Terms</a>
+        <a href="#resources" class="hover:text-gray-900">Resources</a>
+        <a href="#contact" class="hover:text-gray-900">Contact</a>
+      </nav>
+    </div>
+  </footer>
+
+  <button id="toTop" class="no-print fixed bottom-5 right-5 hidden md:inline-flex items-center justify-center w-12 h-12 rounded-full bg-gray-900 text-white shadow-lg hover:opacity-90" aria-label="Back to top">↑</button>
+
+  <script>
+    // Year + back-to-top visibility
+    document.getElementById('year').textContent = new Date().getFullYear();
+    const toTop = document.getElementById('toTop');
+    window.addEventListener('scroll', () => {
+      if (window.scrollY > 600) { toTop.classList.remove('hidden'); } else { toTop.classList.add('hidden'); }
+    });
+    toTop.addEventListener('click', () => window.scrollTo({ top: 0, behavior: 'smooth' }));
+  </script>
+</body>
+</html>
